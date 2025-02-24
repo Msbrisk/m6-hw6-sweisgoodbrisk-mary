@@ -1,1 +1,5 @@
+main {
+  background-image: url("Images/moroccan-flower.png");
+  background-size: cover;
+}
 
