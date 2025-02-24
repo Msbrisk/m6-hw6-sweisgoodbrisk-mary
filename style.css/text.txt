@@ -2,8 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-image: url("Images/moroccan-flower.png");
-  background-size: cover;
   box-sizing: border-box;
 }
 
@@ -46,6 +44,8 @@ header nav ul li a {
 main {
   display: flex;
   flex: 1;
+  background-image: url("Images/moroccan-flower.png");
+  background-size: cover;
   padding: 20px;
 }
 
