@@ -1,9 +1,40 @@
-/* General styles */
-* {
+body {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
+main, nav {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+header, footer {
+  background color: royal blue;
+  padding: 24px 0;
+}
+
+.name, .link {
+  color: white;
+}
+
+.name {
+  margin-right: auto;
+
+}
+
+.link {
+  margin: 0 4px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  margin-top: auto;
+}
+
 
 body {
   font-family: Arial, sans-serif;
