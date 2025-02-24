@@ -1,11 +1,10 @@
-main {
-  background-image: url("Images/moroccan-flower.png");
-  background-size: cover;
-}
+
 /* General Reset */
 * {
   margin: 0;
   padding: 0;
+  background-image: url("Images/moroccan-flower.png");
+  background-size: cover;
   box-sizing: border-box;
 }
 
